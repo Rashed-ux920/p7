@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto",sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+:root{
+    --text123-color: hsl(231, 7%, 60%);
+    --bgsub:  hsl(234, 29%, 20%);
+    --hoversub: hsl(4, 100%, 67%);
+}
+.position{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+.position .left{
+    margin-right: 2em;
+}
+.welcome{
+font-size: larger;
+margin-bottom: 1em;
+}
+.welcome h1{
+    font-size: 3em;
+}
+.aline{
+    display: flex;
+    align-items: center;
+    color: var(--text123-color);
+}
+.left-1 h3{
+    margin-top: 1em;
+}
+.right-1 h3{
+    margin-top: 1em;
+    margin-left: 5px;
+}
+.check{
+    margin-bottom: 1em;
+}
+.monthly{
+    display:flex;
+    justify-content: center;
+    margin-top: 1em;
+    border: none;
+    width: 100%;
+    background: var(--bgsub);
+    border-radius: 5px;
+    
+}
+.submation{
+    display: flex;
+    justify-content: center;   
+    color: aliceblue;
+    background: none;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 0.9em;
+    padding-bottom: 0.9em;
+    border: none;
+    border-radius: 5px;
+}
+.love{
+    margin-bottom: 1em;
+    /* margin-left: 5em; */
+    margin-top: 0.3em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left:10px;
+    width: 600px;
+    border: 1px solid var(--text123-color);
+    color: var(--text123-color);
+    font-style: 19px;
+    outline: none;
+}
+
+label{
+    font-size: 1em;
+    font-weight: 600;
+}
+.right svg{
+    height: 28em;
+    width: 20em;
+}
+.monthly:hover{
+    background: var(--hoversub);
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 10px 5px 5px red;
+}
+.text{
+    color: var(--text123-color);
+}
+.size{
+    margin-top: 3em;
+}
+.size svg{
+    height: 2em;
+    width: 2em;
+}
+.aline{
+    display: flex;
+    justify-content: center;
+}
+.bt2{
+    
+}
